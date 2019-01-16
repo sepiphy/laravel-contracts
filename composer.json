@@ -1,0 +1,40 @@
+{
+    "name": "sepiphy/laravel-contracts",
+    "description": "The \"sepiphy/laravel-contracts\" package extends Laravel Contracts Component.",
+    "keywords": [
+        "sepiphy", "laravel", "laravel-contracts"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/sepiphy/laravel-extensions",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/sepiphy/laravel-extensions/issues",
+        "source": "https://github.com/sepiphy/laravel-extensions"
+    },
+    "authors": [
+        {
+            "name": "Nguyễn Xuân Quỳnh",
+            "email": "nguyenxuanquynh2210vghy@gmail.com",
+            "homepage": "https://nguyenquynh2210.com",
+            "role": "Software Developer"
+        }
+    ],
+    "require": {
+        "illuminate/contracts": "~5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sepiphy\\Laravel\\Contracts\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.3-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
