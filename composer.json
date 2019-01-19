@@ -1,12 +1,12 @@
 {
     "name": "sepiphy/laravel-contracts",
-    "description": "The \"sepiphy/laravel-contracts\" package extends Laravel Contracts Component.",
+    "description": "The Sepiphy Laravel Contracts package.",
     "keywords": [
-        "sepiphy", "laravel", "laravel-contracts"
+        "sepiphy", "laravel", "laravel-contracts", "contracts", "interfaces"
     ],
     "type": "library",
-    "homepage": "https://github.com/sepiphy/laravel-extensions",
     "license": "MIT",
+    "homepage": "https://github.com/sepiphy/laravel-extensions",
     "support": {
         "issues": "https://github.com/sepiphy/laravel-extensions/issues",
         "source": "https://github.com/sepiphy/laravel-extensions"
