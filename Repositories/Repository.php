@@ -38,12 +38,46 @@ interface Repository
     public function update($model, $attributes);
 
     /**
-     * Destroy a model.
+     * Delete a model.
      *
      * @param  Model  $model
-     * @return mixed
+     * @return bool|null
      */
-    public function destroy($model);
+    public function delete($model);
+
+    /**
+     * Destroy one or many models.
+     *
+     * @param  \Illuminate\Support\Collection|array|int  $ids
+     * @return int
+     */
+    public function destroy($ids);
+
+    /**
+     * Get all models from the database.
+     *
+     * @param  array|mixed  $columns
+     * @return Collection|static[]
+     */
+    public function all($columns = ['*']);
+
+    /**
+     * Find the first model from the database.
+     *
+     * @param  array  $columns
+     * @return \Illuminate\Database\Eloquent\Model|object|static|null
+     */
+    public function first($columns = ['*']);
+
+    /**
+     * Find the first model from the database or raise an Exception.
+     *
+     * @param  array  $columns
+     * @return \Illuminate\Database\Eloquent\Model|object|static|null
+     *
+     * @throws ModelNotFoundException
+     */
+    public function firstOrFail($columns = ['*']);
 
     /**
      * Find a specified model by the given id.
@@ -64,14 +98,6 @@ interface Repository
      * @throws ModelNotFoundException
      */
     public function findOrFail($id, $columns = ['*']);
-
-    /**
-     * Get a collection of entities.
-     *
-     * @param  array  $columns
-     * @return Collection
-     */
-    public function get($columns = ['*']);
 
     /**
      * Paginate resources.
