@@ -1,5 +1,7 @@
 
-# The Sepiphy Laravel Contracts package
+## About
+
+The Sepiphy Laravel Contracts package.
 
 This repository stores interfaces only.
 
