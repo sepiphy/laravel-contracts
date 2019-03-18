@@ -7,7 +7,7 @@ This repository stores interfaces only.
 
 ## Contributing
 
-Please visit [sepiphy/laravel-extensions](../../README.md) for more details!
+Please visit [sepiphy/laraveltools](../../README.md) for more details!
 
 ## License
 
