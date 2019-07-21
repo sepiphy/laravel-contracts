@@ -1,6 +1,6 @@
 {
     "name": "sepiphy/laravel-contracts",
-    "description": "The Sepiphy Laravel Contracts package.",
+    "description": "The sepiphy/laravel-contracts package",
     "keywords": [
         "sepiphy", "laravel", "laravel-contracts", "contracts", "interfaces"
     ],
@@ -14,9 +14,7 @@
     "authors": [
         {
             "name": "Quynh Xuan Nguyen",
-            "email": "seriquynh@gmail.com",
-            "homepage": "https://seriquynh.com",
-            "role": "Software Developer"
+            "email": "seriquynh@gmail.com"
         }
     ],
     "require": {
